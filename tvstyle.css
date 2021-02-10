@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ 
+ body{
+     background: url(./netflix.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     background-attachment: fixed;
+     position: relative;
+     z-index: -3;;
+ }
+
+.logo{
+    position: absolute;
+    top: 2.5rem;
+    left: 40rem;
+}    
+
+#search_here{
+    position: absolute;
+    padding:8px;
+    left: 650px;
+    bottom: -200px;
+    width: 200px;
+    
+}
+
+#search_button{
+    position: absolute;
+    padding:8px;
+    left: 870px;
+    bottom: -200px;
+}
+
+#inner_division2{
+    margin:10px; width:250px; border: 2px solid;padding:5px
+}
+ 
